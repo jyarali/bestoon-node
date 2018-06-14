@@ -1,0 +1,20 @@
+{
+  "name": "expressapi",
+  "version": "1.0.0",
+  "description": "my fitst rest api using expressjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Jamal Yarali",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.2.2",
+    "mongoose": "^5.1.4",
+    "nodemon": "^1.17.5"
+  }
+}
